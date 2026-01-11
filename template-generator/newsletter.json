@@ -1,0 +1,324 @@
+{
+  "template": {
+    "type": "email",
+    "rows": [
+      {
+        "name": "Header",
+        "columns": [
+          {
+            "weight": 6,
+            "modules": [
+              {
+                "type": "image",
+                "alt": "Company Logo",
+                "href": "https://example.com",
+                "src": "https://example.com/assets/logo.png",
+                "target": "_blank",
+                "padding-top": 12,
+                "padding-right": 10,
+                "padding-bottom": 12,
+                "padding-left": 20
+              }
+            ]
+          },
+          {
+            "weight": 6,
+            "modules": [
+              {
+                "type": "icons",
+                "icons": [
+                  {
+                    "alt": "Twitter",
+                    "image": "https://example.com/assets/icons/twitter.png",
+                    "href": "https://twitter.com/yourprofile",
+                    "height": "24",
+                    "width": "24",
+                    "target": "_blank",
+                    "textPosition": "bottom"
+                  },
+                  {
+                    "alt": "Facebook",
+                    "image": "https://example.com/assets/icons/facebook.png",
+                    "href": "https://facebook.com/yourprofile",
+                    "height": "24",
+                    "width": "24",
+                    "target": "_blank",
+                    "textPosition": "bottom"
+                  },
+                  {
+                    "alt": "LinkedIn",
+                    "image": "https://example.com/assets/icons/linkedin.png",
+                    "href": "https://linkedin.com/company/yourcompany",
+                    "height": "24",
+                    "width": "24",
+                    "target": "_blank",
+                    "textPosition": "bottom"
+                  }
+                ],
+                "padding-top": 12,
+                "padding-right": 20,
+                "padding-bottom": 12,
+                "padding-left": 10
+              }
+            ]
+          }
+        ],
+        "colStackOnMobile": true,
+        "background-color": "#ffffff",
+        "vertical-align": "middle",
+        "padding-top": 12,
+        "padding-right": 0,
+        "padding-bottom": 12,
+        "padding-left": 0
+      },
+      {
+        "name": "Hero",
+        "columns": [
+          {
+            "weight": 12,
+            "modules": [
+              {
+                "type": "title",
+                "bold": true,
+                "text": "Unsere neuesten Neuigkeiten",
+                "align": "center",
+                "title": "h1",
+                "size": 28,
+                "color": "#1f2937",
+                "line-height": 1.2,
+                "padding-top": 20,
+                "padding-right": 20,
+                "padding-bottom": 8,
+                "padding-left": 20
+              },
+              {
+                "type": "paragraph",
+                "text": "Kurz & bündig: Die Highlights dieser Woche — neue Produkte, Tipps und mehr.",
+                "align": "center",
+                "size": 14,
+                "color": "#6b7280",
+                "linkColor": "#2563eb",
+                "line-height": 1.4,
+                "padding-top": 0,
+                "padding-right": 20,
+                "padding-bottom": 18,
+                "padding-left": 20
+              }
+            ],
+            "background-color": "#ffffff"
+          }
+        ],
+        "colStackOnMobile": true,
+        "background-color": "#ffffff",
+        "vertical-align": "top",
+        "padding-top": 0,
+        "padding-right": 0,
+        "padding-bottom": 0,
+        "padding-left": 0
+      },
+      {
+        "name": "Article 1",
+        "columns": [
+          {
+            "weight": 5,
+            "modules": [
+              {
+                "type": "image",
+                "alt": "Artikel 1 Bild",
+                "href": "https://example.com/article-1",
+                "src": "https://example.com/assets/articles/article1.jpg",
+                "target": "_blank",
+                "padding-top": 12,
+                "padding-right": 12,
+                "padding-bottom": 12,
+                "padding-left": 20
+              }
+            ]
+          },
+          {
+            "weight": 7,
+            "modules": [
+              {
+                "type": "title",
+                "bold": true,
+                "text": "Spannender Artikel Nr. 1",
+                "align": "left",
+                "title": "h2",
+                "size": 18,
+                "color": "#1f2937",
+                "line-height": 1.2,
+                "padding-top": 12,
+                "padding-right": 20,
+                "padding-bottom": 6,
+                "padding-left": 10
+              },
+              {
+                "type": "paragraph",
+                "text": "Eine kurze Zusammenfassung des Artikels 1 — was Sie wissen sollten und warum es wichtig ist.",
+                "align": "left",
+                "size": 14,
+                "color": "#374151",
+                "linkColor": "#2563eb",
+                "line-height": 1.5,
+                "padding-top": 0,
+                "padding-right": 20,
+                "padding-bottom": 12,
+                "padding-left": 10
+              }
+            ]
+          }
+        ],
+        "colStackOnMobile": true,
+        "background-color": "#ffffff",
+        "columnsSpacing": 12,
+        "vertical-align": "top",
+        "padding-top": 6,
+        "padding-right": 0,
+        "padding-bottom": 6,
+        "padding-left": 0
+      },
+      {
+        "name": "Article 2",
+        "columns": [
+          {
+            "weight": 5,
+            "modules": [
+              {
+                "type": "image",
+                "alt": "Artikel 2 Bild",
+                "href": "https://example.com/article-2",
+                "src": "https://example.com/assets/articles/article2.jpg",
+                "target": "_blank",
+                "padding-top": 12,
+                "padding-right": 12,
+                "padding-bottom": 12,
+                "padding-left": 20
+              }
+            ]
+          },
+          {
+            "weight": 7,
+            "modules": [
+              {
+                "type": "title",
+                "bold": true,
+                "text": "Informativer Artikel Nr. 2",
+                "align": "left",
+                "title": "h2",
+                "size": 18,
+                "color": "#1f2937",
+                "line-height": 1.2,
+                "padding-top": 12,
+                "padding-right": 20,
+                "padding-bottom": 6,
+                "padding-left": 10
+              },
+              {
+                "type": "paragraph",
+                "text": "Kurzbeschreibung von Artikel 2 — Ein Blick auf die wichtigsten Erkenntnisse.",
+                "align": "left",
+                "size": 14,
+                "color": "#374151",
+                "linkColor": "#2563eb",
+                "line-height": 1.5,
+                "padding-top": 0,
+                "padding-right": 20,
+                "padding-bottom": 12,
+                "padding-left": 10
+              }
+            ]
+          }
+        ],
+        "colStackOnMobile": true,
+        "background-color": "#ffffff",
+        "columnsSpacing": 12,
+        "vertical-align": "top",
+        "padding-top": 6,
+        "padding-right": 0,
+        "padding-bottom": 12,
+        "padding-left": 0
+      },
+      {
+        "name": "CTA",
+        "columns": [
+          {
+            "weight": 12,
+            "modules": [
+              {
+                "type": "button",
+                "label": "Mehr erfahren",
+                "align": "center",
+                "href": "https://example.com/all-articles",
+                "target": "_blank",
+                "size": 16,
+                "color": "#ffffff",
+                "background-color": "#2563eb",
+                "padding-top": 12,
+                "padding-right": 24,
+                "padding-bottom": 12,
+                "padding-left": 24,
+                "hoverBackgroundColor": "#1d4ed8",
+                "hoverColor": "#ffffff",
+                "border-radius": 6
+              }
+            ],
+            "background-color": "#ffffff",
+            "padding-top": 6,
+            "padding-bottom": 24
+          }
+        ],
+        "colStackOnMobile": true,
+        "background-color": "#ffffff",
+        "vertical-align": "middle",
+        "padding-top": 0,
+        "padding-right": 0,
+        "padding-bottom": 0,
+        "padding-left": 0
+      },
+      {
+        "name": "Footer",
+        "columns": [
+          {
+            "weight": 12,
+            "modules": [
+              {
+                "type": "paragraph",
+                "html": "Wenn Sie keine weiteren E-Mails mehr erhalten möchten, <a href=\"https://example.com/unsubscribe\" target=\"_blank\" style=\"color:#2563eb; text-decoration:none;\">hier abbestellen</a>.<br/><br/>Firma GmbH · Musterstraße 1 · 12345 Stadt",
+                "align": "center",
+                "size": 12,
+                "color": "#6b7280",
+                "linkColor": "#2563eb",
+                "line-height": 1.4,
+                "padding-top": 18,
+                "padding-right": 20,
+                "padding-bottom": 18,
+                "padding-left": 20
+              }
+            ],
+            "background-color": "#f9fafb"
+          }
+        ],
+        "colStackOnMobile": true,
+        "background-color": "#f9fafb",
+        "vertical-align": "middle",
+        "padding-top": 6,
+        "padding-right": 0,
+        "padding-bottom": 6,
+        "padding-left": 0
+      }
+    ],
+    "settings": {
+      "linkColor": "#2563eb",
+      "background-color": "#f3f4f6",
+      "contentAreaBackgroundColor": "#ffffff",
+      "width": 600
+    },
+    "metadata": {
+      "lang": "de",
+      "title": "Newsletter - Neuigkeiten",
+      "description": "Wöchentliche Highlights und Artikel",
+      "subject": "Neuigkeiten & Highlights dieser Woche",
+      "preheader": "Die wichtigsten Updates und Artikel — jetzt lesen"
+    }
+  }
+}
